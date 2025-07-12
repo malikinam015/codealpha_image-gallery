@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Image Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Image Gallery</h1>
+        
+        <div class="lightbox-container">
+            <div class="lightbox">
+                <div class="lightbox-content">
+                    <img src="" alt="" class="lightbox-image">
+                    <div class="lightbox-caption"></div>
+                </div>
+                <div class="lightbox-nav">
+                    <span class="lightbox-prev">&lt;</span>
+                    <span class="lightbox-next">&gt;</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="filter-buttons">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="nature">Nature</button>
+            <button class="filter-btn" data-filter="architecture">Architecture</button>
+            <button class="filter-btn" data-filter="people">People</button>
+            <button class="filter-btn" data-filter="animals">Animals</button>
+            <button class="filter-btn" data-filter="food">Food</button>
+        </div>
+        
+        <div class="gallery">
+            <div class="gallery-item" data-category="nature">
+                <img src="./Image/nature1.jpg" alt="Nature 1" class="gallery-image">
+                <div class="image-caption">Mountain Majesty</div>
+            </div>
+            <div class="gallery-item" data-category="architecture">
+                <img src="./Image/architecture1.jpg" alt="Architecture 1" class="gallery-image">
+                <div class="image-caption">Urban Geometry Rising</div>
+            </div>
+            <div class="gallery-item" data-category="people">
+                <img src="./Image/people1.jpg" alt="People 1" class="gallery-image">
+                <div class="image-caption">Chalk-Dusted Warriors</div>
+            </div>
+            <div class="gallery-item" data-category="animals">
+                <img src="./Image/animals1.jpg" alt="Animal 1" class="gallery-image">
+                <div class="image-caption">Rabbit Meadow Whisper</div>
+            </div>
+            <div class="gallery-item" data-category="food">
+                <img src="./Image/food1.jpg" alt="Food 1" class="gallery-image">
+                <div class="image-caption">Golden Corn Sunshine</div>
+            </div>
+            <div class="gallery-item" data-category="nature">
+                <img src="./Image/nature2.jpg" alt="Nature 2" class="gallery-image">
+                <div class="image-caption">Pine Forest Twilight</div>
+            </div>
+            <div class="gallery-item" data-category="architecture">
+                <img src="./Image/architecture2.jpg" alt="Architecture 2" class="gallery-image">
+                <div class="image-caption">Silence in Structure</div>
+            </div>
+            <div class="gallery-item" data-category="people">
+                <img src="./Image/people2.jpg" alt="People 2" class="gallery-image">
+                <div class="image-caption">Roots in Her Palms</div>
+            </div>
+            <div class="gallery-item" data-category="animals">
+                <img src="./Image/animals2.jpg" alt="Animal 2" class="gallery-image">
+                <div class="image-caption">Deer Forest Ghost</div>
+            </div>
+            <div class="gallery-item" data-category="food">
+                <img src="./Image/food2.jpg" alt="Food 2" class="gallery-image">
+                <div class="image-caption">Vibrant Beetroot Stain</div>
+            </div>
+            <div class="gallery-item" data-category="nature">
+                <img src="./Image/nature3.jpg" alt="Nature 3" class="gallery-image">
+                <div class="image-caption">Tempest Brewing</div>
+            </div>
+            <div class="gallery-item" data-category="architecture">
+                <img src="./Image/architecture3.jpg" alt="Architecture 3" class="gallery-image">
+                <div class="image-caption">Light Shapes Space</div>
+            </div>
+            <div class="gallery-item" data-category="people">
+                <img src="./Image/people3.jpg" alt="People 3" class="gallery-image">
+                <div class="image-caption">Lemonade Grin</div>
+            </div>
+            <div class="gallery-item" data-category="animals">
+                <img src="./Image/animals3.jpg" alt="Animal 3" class="gallery-image">
+                <div class="image-caption">Cat Philosopher</div>
+            </div>
+            <div class="gallery-item" data-category="food">
+                <img src="./Image/food3.jpg" alt="Food 3" class="gallery-image">
+                <div class="image-caption">Avocado Toast Crown</div>
+            </div>
+            <div class="gallery-item" data-category="nature">
+                <img src="./Image/nature4.jpg" alt="Nature 4" class="gallery-image">
+                <div class="image-caption">Earth's Last Stand</div>
+            </div>
+            <div class="gallery-item" data-category="architecture">
+                <img src="./Image/architecture4.jpg" alt="Architecture 4" class="gallery-image">
+                <div class="image-caption">Mass Meets Void</div>
+            </div>
+            <div class="gallery-item" data-category="people">
+                <img src="./Image/people4.jpg" alt="People 4" class="gallery-image">
+                <div class="image-caption">Barefoot Philosopher</div>
+            </div>
+            <div class="gallery-item" data-category="animals">
+                <img src="./Image/animals4.jpg" alt="Animal 4" class="gallery-image">
+                <div class="image-caption">swamp deer beayty</div>
+            </div>
+            <div class="gallery-item" data-category="food">
+                <img src="./Image/food4.jpg" alt="Food 4" class="gallery-image">
+                <div class="image-caption">Strawberry Sunset Cake</div>
+            </div>
+            <div class="gallery-item" data-category="nature">
+                <img src="./Image/nature5.jpg" alt="Nature 5" class="gallery-image">
+                <div class="image-caption">Heaven's Veil</div>
+            </div>
+            <div class="gallery-item" data-category="architecture">
+                <img src="./Image/architecture5.jpg" alt="Architecture 5" class="gallery-image">
+                <div class="image-caption">Steel Symphony</div>
+            </div>
+            <div class="gallery-item" data-category="people">
+                <img src="./Image/people5.jpg" alt="People 5" class="gallery-image">
+                <div class="image-caption">Bargaining with Fireflies</div>
+            </div>
+            <div class="gallery-item" data-category="animals">
+                <img src="./Image/animals5.jpg" alt="Animal 5" class="gallery-image">
+                <div class="image-caption">APanda Blackwhite Haiku</div>
+            </div>
+            <div class="gallery-item" data-category="food">
+                <img src="./Image/food5.jpg" alt="Food 5" class="gallery-image">
+                <div class="image-caption">Avocado Egg Toast</div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
